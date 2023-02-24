@@ -1,0 +1,390 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300;400;600;700&family=Open+Sans:wght@600&family=Plus+Jakarta+Sans:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.afuera {
+  background-color: black;
+}
+
+.navContainer {
+  display: flex;
+  background-color: black;
+  height: 90px;
+}
+
+.navLogo {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin: auto auto auto 100px;
+  font-size: 35px;
+  letter-spacing: 5px;
+  text-decoration: none;
+  color: #ececec;
+}
+
+.navMenu {
+  margin: auto 100px auto auto;
+  display: flex;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+}
+
+.itemNav {
+  margin-right: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+.navLink {
+  margin: 10px;
+  margin-bottom: 15px;
+  color: #ececec;
+  text-decoration: none;
+}
+
+.contact {
+  background-color: #ff8080;
+  margin: auto;
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+body {
+  background-color: #ececec;
+}
+
+.principal {
+  margin: 120px auto;
+}
+
+.mainContainer {
+  font-family: "Crimson Pro", serif;
+  display: flex;
+}
+
+.left {
+  height: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.right {
+  height: auto;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.simFoto {
+  height: 600px;
+  width: 400px;
+  background-color: aqua;
+}
+
+.titulo {
+  font-size: 80px;
+  letter-spacing: 8px;
+}
+
+.tituloContainer {
+  margin-left: 150px;
+  margin-bottom: 0px;
+}
+
+.descriptionContainer {
+  margin-left: 125px;
+  margin-right: 200px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.descripcion {
+  font-weight: 600;
+  font-size: 50px;
+  text-align: right;
+  letter-spacing: 3px;
+  margin-top: 0px;
+}
+
+.boton {
+  font-family: "Open Sans", sans-serif;
+  background-color: #ff8080;
+  height: 70px;
+  width: 250px;
+  border-radius: 25px;
+  margin-left: 300px;
+
+  position: relative;
+}
+
+.textoCV {
+  font-weight: 600;
+  text-decoration: none;
+  color: #ececec;
+
+  font-size: 25px;
+  position: absolute;
+
+  margin-left: 45px;
+  margin-top: 18px;
+}
+
+/* Contact */
+.principalContact {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tituloContact {
+  font-size: 80px;
+  text-align: center;
+}
+
+.tituloContact {
+  letter-spacing: 8px;
+}
+
+.contactContainer {
+  margin-top: 100px;
+  height: 70%;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.formularioContainer {
+  width: 50%;
+  height: 100%;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  padding: 15px;
+  font-family: "Crimson Pro", serif;
+  font-size: 20px;
+}
+
+.formularioContainer form input,
+.formularioContainer form textarea,
+.formularioContainer form button {
+  width: 100%;
+  padding: 8px;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  outline: none;
+  border-radius: 20px;
+  border: 0;
+}
+
+.formularioContainer form button {
+  background-color: black;
+  color: #ececec;
+  font-size: 20px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formularioContainer form textarea {
+  height: 150px;
+}
+
+.datosContainer {
+  border-top: 1px solid black;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: 5px;
+}
+
+.formularioContainer form label {
+  margin-left: 10px;
+}
+
+.direccion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.writeContainer {
+  margin-top: 60px;
+  min-width: 70%;
+  min-height: 200px;
+  height: 225px;
+  width: 80%;
+  background-color: #0d0b0b;
+  opacity: 0.7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.writeContainer .numero a,
+.writeContainer .correo a {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 25px;
+  letter-spacing: 5px;
+  font-weight: 300;
+}
+
+.numero {
+  margin-top: 20px;
+}
+
+.correo {
+  margin-bottom: 20px;
+}
+
+.whiteContact {
+  color: white;
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.fa-regular {
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 1860px) {
+  .descriptionContainer {
+    margin-left: 10%;
+    margin-right: 55%;
+  }
+}
+
+@media screen and (max-width: 1780px) {
+  .writeContainer .numero a,
+  .writeContainer .correo a {
+    font-size: 14px;
+    letter-spacing: 5px;
+    font-weight: 300;
+  }
+
+  .whiteContact {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .contactContainer {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .contactContainer {
+    flex-direction: column;
+  }
+  .datosContainer,
+  .formularioContainer {
+    width: 100%;
+    border-right: none;
+  }
+
+  .tituloContact {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .writeContainer .numero a,
+  .writeContainer .correo a {
+    font-size: 16px;
+    letter-spacing: 5px;
+    font-weight: 300;
+  }
+
+  .whiteContact {
+    font-size: 20px;
+  }
+
+  .writeContainer {
+    width: 100%;
+  }
+}
+
+.footer {
+  display: flex;
+  margin-top: 100px;
+  margin-left: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.scrollContainer,
+.scroll-text {
+  margin-left: -150px;
+}
+.scrollContainer {
+  height: 50px;
+  width: 50px;
+  background-color: #0d0b0b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scrollContainer {
+  color: #ececec;
+  rotate: -90deg;
+  font-weight: 700;
+  font-size: 50px;
+}
+.scroll-text {
+  margin-left: 15px;
+}
+
+.redes {
+  margin-left: 12%;
+  display: flex;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}
+.red {
+  height: 80px;
+  width: 80px;
+  background-color: #ff8080;
+  margin-left: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.red {
+  font-size: 60px;
+  color: #ececec;
+}
+
+@media screen and (max-width: 480px) {
+  .writeContainer .numero a,
+  .writeContainer .correo a {
+    font-size: 14px;
+    letter-spacing: 5px;
+    font-weight: 300;
+  }
+
+  .whiteContact {
+    font-size: 16px;
+  }
+}
